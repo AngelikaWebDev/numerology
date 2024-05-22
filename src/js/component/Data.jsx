@@ -10,6 +10,10 @@ const Data = () => {
                 <input type="text" className="form-control" id="name" aria-describedby="name"/>
             </div>
             <div className="mb-3">
+                <label className="form-label">Apellidos</label>
+                <input type="text" className="form-control" id="lastname" aria-describedby="lastname"/>
+            </div>
+            <div className="mb-3">
             <label className="form-label">Fecha de Nacimiento</label>
                 <div className="row">
                     <div className="col">
